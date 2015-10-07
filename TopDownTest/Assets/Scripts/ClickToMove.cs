@@ -32,7 +32,7 @@ public class ClickToMove : MonoBehaviour
 			locateCursor();
 			if(!attack&&!die)
 			{
-				if(Input.GetMouseButtonDown(0))
+				if(Input.GetMouseButton(0))
 				{
 					//Locate where the player clicked on the terrain
 					locatePosition();

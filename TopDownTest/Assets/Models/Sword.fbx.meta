@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: 70583e3d1d3134914aec90abd8fe3d2c
+timeCreated: 1445285812
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: controlGeometries1
+    100002: controlGeometries2
+    100004: fromControl1
+    100006: fromControl2
+    100008: fromDir1
+    100010: fromDir2
+    100012: fromDirHandle1
+    100014: fromDirHandle2
+    100016: fromPoint1
+    100018: fromPoint2
+    100020: group
+    100022: group1
+    100024: group2
+    100026: joint1
+    100028: joint2
+    100030: joint3
+    100032: joint4
+    100034: joint5
+    100036: joint6
+    100038: joint7
+    100040: joint8
+    100042: Lightning1
+    100044: Lightning2
+    100046: lightningCurve1
+    100048: lightningCurve1Particle
+    100050: lightningCurve2
+    100052: lightningCurve2Particle
+    100054: LightningSurface1
+    100056: LightningSurface2
+    100058: nurbsCircle1
+    100060: nurbsCircle2
+    100062: pasted__pSphere2
+    100064: pasted__pSphere2 1
+    100066: pasted__pSphere2 2
+    100068: pCube1
+    100070: pCube2
+    100072: pCube3
+    100074: pCube4
+    100076: pCube5
+    100078: pCube6
+    100080: pCylinder1
+    100082: pSphere1
+    100084: pSphere2
+    100086: //RootNode
+    100088: toControl1
+    100090: toControl2
+    100092: toDir1
+    100094: toDir2
+    100096: toDirHandle1
+    100098: toDirHandle2
+    100100: toPoint1
+    100102: toPoint2
+    100104: transform1
+    100106: transform2
+    100108: transform3
+    100110: transform4
+    100112: transform5
+    100114: transform6
+    100116: transform7
+    400000: controlGeometries1
+    400002: controlGeometries2
+    400004: fromControl1
+    400006: fromControl2
+    400008: fromDir1
+    400010: fromDir2
+    400012: fromDirHandle1
+    400014: fromDirHandle2
+    400016: fromPoint1
+    400018: fromPoint2
+    400020: group
+    400022: group1
+    400024: group2
+    400026: joint1
+    400028: joint2
+    400030: joint3
+    400032: joint4
+    400034: joint5
+    400036: joint6
+    400038: joint7
+    400040: joint8
+    400042: Lightning1
+    400044: Lightning2
+    400046: lightningCurve1
+    400048: lightningCurve1Particle
+    400050: lightningCurve2
+    400052: lightningCurve2Particle
+    400054: LightningSurface1
+    400056: LightningSurface2
+    400058: nurbsCircle1
+    400060: nurbsCircle2
+    400062: pasted__pSphere2
+    400064: pasted__pSphere2 1
+    400066: pasted__pSphere2 2
+    400068: pCube1
+    400070: pCube2
+    400072: pCube3
+    400074: pCube4
+    400076: pCube5
+    400078: pCube6
+    400080: pCylinder1
+    400082: pSphere1
+    400084: pSphere2
+    400086: //RootNode
+    400088: toControl1
+    400090: toControl2
+    400092: toDir1
+    400094: toDir2
+    400096: toDirHandle1
+    400098: toDirHandle2
+    400100: toPoint1
+    400102: toPoint2
+    400104: transform1
+    400106: transform2
+    400108: transform3
+    400110: transform4
+    400112: transform5
+    400114: transform6
+    400116: transform7
+    2300000: pasted__pSphere2
+    2300002: pasted__pSphere2 1
+    2300004: pasted__pSphere2 2
+    2300006: pCube6
+    2300008: pSphere2
+    3300000: pasted__pSphere2
+    3300002: pasted__pSphere2 1
+    3300004: pasted__pSphere2 2
+    3300006: pCube6
+    3300008: pSphere2
+    4300000: pSphere2
+    4300002: pasted__pSphere2
+    4300004: pasted__pSphere2
+    4300006: pasted__pSphere2
+    4300008: pCube6
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pSphere2
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__pSphere2 1
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/pasted__pSphere2 2
+        weight: 1
+      - path: Lightning1
+        weight: 1
+      - path: Lightning1/controlGeometries1
+        weight: 1
+      - path: Lightning1/controlGeometries1/lightningCurve1
+        weight: 1
+      - path: Lightning1/controlGeometries1/lightningCurve1/lightningCurve1Particle
+        weight: 1
+      - path: Lightning1/controlGeometries1/nurbsCircle1
+        weight: 1
+      - path: Lightning1/fromControl1
+        weight: 1
+      - path: Lightning1/fromControl1/fromPoint1
+        weight: 1
+      - path: Lightning1/fromControl1/fromPoint1/fromDir1
+        weight: 1
+      - path: Lightning1/fromControl1/fromPoint1/fromDirHandle1
+        weight: 1
+      - path: Lightning1/fromControl1/joint1
+        weight: 1
+      - path: Lightning1/fromControl1/joint1/joint2
+        weight: 1
+      - path: Lightning1/LightningSurface1
+        weight: 1
+      - path: Lightning1/toControl1
+        weight: 1
+      - path: Lightning1/toControl1/joint3
+        weight: 1
+      - path: Lightning1/toControl1/joint3/joint4
+        weight: 1
+      - path: Lightning1/toControl1/toPoint1
+        weight: 1
+      - path: Lightning1/toControl1/toPoint1/toDir1
+        weight: 1
+      - path: Lightning1/toControl1/toPoint1/toDirHandle1
+        weight: 1
+      - path: Lightning2
+        weight: 1
+      - path: Lightning2/controlGeometries2
+        weight: 1
+      - path: Lightning2/controlGeometries2/lightningCurve2
+        weight: 1
+      - path: Lightning2/controlGeometries2/lightningCurve2/lightningCurve2Particle
+        weight: 1
+      - path: Lightning2/controlGeometries2/nurbsCircle2
+        weight: 1
+      - path: Lightning2/fromControl2
+        weight: 1
+      - path: Lightning2/fromControl2/fromPoint2
+        weight: 1
+      - path: Lightning2/fromControl2/fromPoint2/fromDir2
+        weight: 1
+      - path: Lightning2/fromControl2/fromPoint2/fromDirHandle2
+        weight: 1
+      - path: Lightning2/fromControl2/joint5
+        weight: 1
+      - path: Lightning2/fromControl2/joint5/joint6
+        weight: 1
+      - path: Lightning2/LightningSurface2
+        weight: 1
+      - path: Lightning2/toControl2
+        weight: 1
+      - path: Lightning2/toControl2/joint7
+        weight: 1
+      - path: Lightning2/toControl2/joint7/joint8
+        weight: 1
+      - path: Lightning2/toControl2/toPoint2
+        weight: 1
+      - path: Lightning2/toControl2/toPoint2/toDir2
+        weight: 1
+      - path: Lightning2/toControl2/toPoint2/toDirHandle2
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform2
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube2/transform5
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform4
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform7
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform6
+        weight: 1
+      - path: pCube6
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform3
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform1
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

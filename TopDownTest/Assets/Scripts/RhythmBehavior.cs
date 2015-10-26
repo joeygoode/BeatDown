@@ -6,6 +6,8 @@ public class RhythmBehavior : MonoBehaviour {
 	public int beat = 0;
 	public bool onBeat = false;
 
+	public Color playerCol = new Color(1,1,1);
+
 	// Set Framerate to 30
 	void Awake() {
 		Application.targetFrameRate = 30;
@@ -55,6 +57,26 @@ public class RhythmBehavior : MonoBehaviour {
 
 		CountBeat();
 		GameOnBeat();
+
+		if (onBeat) {
+
+			//GetComponent<Animation>().Play();
+			playerCol.r = 1;
+			playerCol.g = 0;
+			playerCol.b = 0;
+
+			GetComponent<Renderer> ().material.color = playerCol;
+
+			//playerCol.a -= 90;
+		}
+
+		else {
+
+			playerCol.g += .035f;
+			playerCol.b += .035f;
+ 
+			GetComponent<Renderer> ().material.color = playerCol;
+		}
 	
 	}
 }

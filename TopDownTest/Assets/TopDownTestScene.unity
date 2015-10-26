@@ -85,6 +85,111 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &426937763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 426937765}
+  - 114: {fileID: 426937764}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &426937764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426937763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b91f952df8b3e4e82b35646d7bd616a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxSpawns: 2
+  SpawnInterval: 3
+  Spawn: {fileID: 117288, guid: 72761c8d1e2234d1fb6281d685c6615b, type: 2}
+  spawns: []
+--- !u!4 &426937765
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426937763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 204.022202, y: 2.58000493, z: 419.399994}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+--- !u!1001 &994731197
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 188.781799
+      objectReference: {fileID: 0}
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.19000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 446.365326
+      objectReference: {fileID: 0}
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 400086, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4241553f526bf4d2bbf6f4fde1abbc29, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 70583e3d1d3134914aec90abd8fe3d2c, type: 3}
+  m_IsPrefabParent: 0
 --- !u!1 &1223391322
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +421,7 @@ GameObject:
   - 114: {fileID: 1874917842}
   - 114: {fileID: 1874917846}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -371,7 +476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4420fe259d2c42e5916971b4b2ae250, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashDuration: .200000003
+  dashDuration: .100000001
   dashMoveSpeed: 100
   controller: {fileID: 1874917845}
 --- !u!33 &1874917843

@@ -67,7 +67,7 @@ public class RhythmBehavior : MonoBehaviour {
 
 			GetComponent<Renderer> ().material.color = playerCol;
 
-			//playerCol.a -= 90;
+
 		}
 
 		else {

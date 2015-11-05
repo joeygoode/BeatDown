@@ -10,8 +10,9 @@ public class ClickToMove : MonoBehaviour
 	//public AnimationClip run;
 	//public AnimationClip idle;
 
+
 	public bool idle;
-	//public static bool attack;
+	public static bool attack;
 	//public static bool die;
 
 	// Use this for initialization
@@ -19,6 +20,7 @@ public class ClickToMove : MonoBehaviour
 	{
 		position = transform.position;
 		idle = true;
+
 	}
 	
 	// Update is called once per frame
@@ -29,14 +31,16 @@ public class ClickToMove : MonoBehaviour
 			if (Cursor.ToTerrainPosition(out terrainBelowCursor))
 			{
 				position = terrainBelowCursor;
+				GetComponent<Animation>().Play ("Run");
 			}
 		}
 
 		if (idle) {
 			//Move the player to the position
+
 			moveToPosition ();
 		} else {
-			position = transform.position;
+			position = new Vector3(0,0,0);//transform.position;
 		}
 	}
 	
@@ -44,5 +48,8 @@ public class ClickToMove : MonoBehaviour
 
 		controller.SimpleMove (Movement.MoveToPosition (transform, position, Time.deltaTime * 10) * speed);
 	}
-	
+
+
+
+
 }

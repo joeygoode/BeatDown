@@ -74,8 +74,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34a8c6586358f4e7dbccb66f963da77f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TargetName: Player
+  TargetName: PlayerCharacter
   MoveSpeed: 10
+  range: 0
+  target: {fileID: 0}
+  player: {fileID: 0}
 --- !u!136 &13620300
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -119,7 +122,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: TargetName
-      value: Player
+      value: PlayerCharacter
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: MoveSpeed

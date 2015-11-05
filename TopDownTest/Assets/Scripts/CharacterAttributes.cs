@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CharacterAttributes : MonoBehaviour {
 
-	public int characterHealth = 100;
+	public static int characterHealth = 100;
 	public int attackDamage = 10;
 
 	// Use this for initialization

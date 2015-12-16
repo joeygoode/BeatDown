@@ -2,69 +2,132 @@
 using System.Collections;
 
 public class SimpleAI : MonoBehaviour {
+
+	// The name of the object to look for
 	public string TargetName;
+
+	// The move speed of the enemy
 	public float MoveSpeed;
 
+	// Where the enemy should move to
 	private Vector3 destination;
 
+	// How far away the enemy can see
 	public int range;
 
-	public GameObject target;
-
+	// The player
 	public GameObject player;
+	// These two can be consolidated later 
 
+	// Is the enemy inRange of the player
+	public bool inRange;
 
+	public float justAttacked;
 
-	public void getHit(int damage) {
+	public bool attacking;
 
-		CharacterAttributes.characterHealth -= damage;
-	}
+	public bool idle = true;
 
 
 	// Is the enemy in range of the player
-	bool inRange(){
+	void isInRange(){
 
-		if ((Vector3.Distance(transform.position, player.transform.position) <= range) ||
-		    Vector3.Distance(transform.position, player.transform.position) >= range * range) {
-			return true;
+		if (Vector3.Distance(transform.position, player.transform.position) <= range) {
+
+			inRange = true;
+			attacking = true;
 		}
 
 		else {
-			return false; 
+			inRange = false;
+			attacking = false;
 		}
 	}
+
+
 
 
 	// Use this for initialization
 	void Start () {
 		//target = GameObject.Find (TargetName);
-		
 		//player = GameObject.FindGameObjectWithTag("Player");
+		justAttacked = Time.time;
 	}
 
 	
 	// Update is called once per frame
 	void Update () {
 
-		destination = target.transform.position;
+		isInRange();
 
-		if (!inRange ()) {
+		destination = player.transform.position;
 
-			//transform.LookAt(player.transform.position);
-			
-			gameObject.GetComponent<CharacterController>().SimpleMove (Movement.MoveToPosition (transform,
-		                                                                                    destination,
-		                                                                                    Time.deltaTime * 10)
-		                                                           * MoveSpeed);
+
+		if (Vector3.Distance(transform.position, player.transform.position) > range * (range/3)) {
+
+			GetComponent<Animation>().Play ("Idle");
 		}
+
+
+		// If we arent in range and we aren't too far away from the player, chase the player
+		if (Vector3.Distance(transform.position, player.transform.position) < range * (range/3) && !inRange) {
+			gameObject.GetComponent<CharacterController>().SimpleMove (Movement.MoveToPosition (transform,
+				                                                                                    destination,
+				                                                                                    Time.deltaTime * 10)
+				                                                           * MoveSpeed);
+			if (GameObject.Find("EventSubscriber").GetComponent<EventSubscriber>().onBeat ) {
+				GetComponent<Animation>().Play ("Walk");
+					
+			}
+		}
+
+		if (Time.time - justAttacked > 2){ //&& GameObject.Find("EventSubscriber").GetComponent<EventSubscriber>().onBeat) {
+
+
+			if (inRange ) {
+
+					if (gameObject.tag == "Boss") {
+
+						
+						GetComponent<Animation>().Play("Combo");
+
+						player.GetComponent<CharacterAttributes>().characterHealth -= 
+						GetComponent<CharacterAttributes>().attackDamage/3;
+						justAttacked = Time.time;
+					}
+
+					if (gameObject.tag == "Enemy") {
+					
+					
+						GetComponent<Animation>().Play("Attack");
+						
+						player.GetComponent<CharacterAttributes>().characterHealth -= 
+							GetComponent<CharacterAttributes>().attackDamage;
+						justAttacked = Time.time;
+					}
+				}
+			
+		}
+
+//			if(!inRange && !attacking) {
+//
+//				GetComponent<Animation>().Play("Idle");
+//			}
 	}
 
+
+	// When the mouse is over the enemy
 	void OnMouseOver() {
 
+		// Set this enemy to the player's targeted enemy
+		player.GetComponent<CharacterAttributes>().target = gameObject;
+	}
 
+	// When the mouse is not over the enemy
+	void OnMouseExit() {
 
-		player.GetComponent<Combat>().targetEnemy = gameObject;
-
-		Debug.Log("Mouse is over Enemy");
+		// Set the player's targeted enemy to null
+		player.GetComponent<CharacterAttributes>().target = null;
 	}
 }
+

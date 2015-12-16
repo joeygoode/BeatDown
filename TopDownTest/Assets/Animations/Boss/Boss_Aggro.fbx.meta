@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: a0cb47dd8c81a4b1186aa157840f043c
+timeCreated: 1450261890
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Chest
+    100004: Hat
+    100006: Head
+    100008: ikHandle3
+    100010: ikHandle4
+    100012: Jaw1
+    100014: Jaw2
+    100016: L_Ankle
+    100018: L_Ball
+    100020: L_Clavicle
+    100022: L_Elbow
+    100024: L_Hand
+    100026: L_Hip
+    100028: L_Index1
+    100030: L_Index2
+    100032: L_Index2 1
+    100034: L_Index3
+    100036: L_Index3 1
+    100038: L_Index4
+    100040: L_Index4 1
+    100042: L_Index5
+    100044: L_Knee
+    100046: L_Middle1
+    100048: L_Middle2
+    100050: L_Middle3
+    100052: L_Middle4
+    100054: L_Pinky1
+    100056: L_Pinky2
+    100058: L_Pinky3
+    100060: L_Pinky4
+    100062: L_Shoulder
+    100064: L_Thumb1
+    100066: L_Thumb2
+    100068: L_Thumb3
+    100070: L_Thumb4
+    100072: L_Toe
+    100074: L_Wrist1
+    100076: L_Wrist2
+    100078: Neck
+    100080: pCube8
+    100082: Pelvis
+    100084: pSphere3
+    100086: pSphere4
+    100088: R_Ankle
+    100090: R_Ball
+    100092: R_Clavicle
+    100094: R_Elbow
+    100096: R_Hand
+    100098: R_Hip
+    100100: R_Knee
+    100102: R_Shoulder
+    100104: R_Toe
+    100106: R_Wrist
+    100108: Root
+    100110: Spine1
+    100112: Spine2
+    100114: Spine3
+    100116: transform1
+    100118: transform2
+    400000: //RootNode
+    400002: Chest
+    400004: Hat
+    400006: Head
+    400008: ikHandle3
+    400010: ikHandle4
+    400012: Jaw1
+    400014: Jaw2
+    400016: L_Ankle
+    400018: L_Ball
+    400020: L_Clavicle
+    400022: L_Elbow
+    400024: L_Hand
+    400026: L_Hip
+    400028: L_Index1
+    400030: L_Index2
+    400032: L_Index2 1
+    400034: L_Index3
+    400036: L_Index3 1
+    400038: L_Index4
+    400040: L_Index4 1
+    400042: L_Index5
+    400044: L_Knee
+    400046: L_Middle1
+    400048: L_Middle2
+    400050: L_Middle3
+    400052: L_Middle4
+    400054: L_Pinky1
+    400056: L_Pinky2
+    400058: L_Pinky3
+    400060: L_Pinky4
+    400062: L_Shoulder
+    400064: L_Thumb1
+    400066: L_Thumb2
+    400068: L_Thumb3
+    400070: L_Thumb4
+    400072: L_Toe
+    400074: L_Wrist1
+    400076: L_Wrist2
+    400078: Neck
+    400080: pCube8
+    400082: Pelvis
+    400084: pSphere3
+    400086: pSphere4
+    400088: R_Ankle
+    400090: R_Ball
+    400092: R_Clavicle
+    400094: R_Elbow
+    400096: R_Hand
+    400098: R_Hip
+    400100: R_Knee
+    400102: R_Shoulder
+    400104: R_Toe
+    400106: R_Wrist
+    400108: Root
+    400110: Spine1
+    400112: Spine2
+    400114: Spine3
+    400116: transform1
+    400118: transform2
+    4300000: pSphere4
+    7400000: Aggro
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: pSphere4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Aggro
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: pCube8
+        weight: 1
+      - path: pCube8/transform1
+        weight: 1
+      - path: pSphere3
+        weight: 1
+      - path: pSphere3/transform2
+        weight: 1
+      - path: pSphere4
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/Pelvis
+        weight: 1
+      - path: Root/Pelvis/L_Hip
+        weight: 1
+      - path: Root/Pelvis/L_Hip/L_Knee
+        weight: 1
+      - path: Root/Pelvis/L_Hip/L_Knee/L_Ankle
+        weight: 1
+      - path: Root/Pelvis/L_Hip/L_Knee/L_Ankle/L_Ball
+        weight: 1
+      - path: Root/Pelvis/L_Hip/L_Knee/L_Ankle/L_Ball/L_Toe
+        weight: 1
+      - path: Root/Pelvis/R_Hip
+        weight: 1
+      - path: Root/Pelvis/R_Hip/R_Knee
+        weight: 1
+      - path: Root/Pelvis/R_Hip/R_Knee/R_Ankle
+        weight: 1
+      - path: Root/Pelvis/R_Hip/R_Knee/R_Ankle/R_Ball
+        weight: 1
+      - path: Root/Pelvis/R_Hip/R_Knee/R_Ankle/R_Ball/R_Toe
+        weight: 1
+      - path: Root/Spine1
+        weight: 1
+      - path: Root/Spine1/Spine2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Index1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Index1/L_Index2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Index1/L_Index2/L_Index3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Index1/L_Index2/L_Index3/L_Index4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Index5
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Index5/L_Index2
+          1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Index5/L_Index2
+          1/L_Index3 1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Index5/L_Index2
+          1/L_Index3 1/L_Index4 1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Middle1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Middle1/L_Middle2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Middle1/L_Middle2/L_Middle3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Middle1/L_Middle2/L_Middle3/L_Middle4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Pinky1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Pinky1/L_Pinky2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Pinky1/L_Pinky2/L_Pinky3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Hand/L_Pinky1/L_Pinky2/L_Pinky3/L_Pinky4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Thumb1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Thumb1/L_Thumb2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Thumb1/L_Thumb2/L_Thumb3
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist1/L_Wrist2/L_Thumb1/L_Thumb2/L_Thumb3/L_Thumb4
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/Neck
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/Neck/Head
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/Neck/Head/Hat
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/Neck/Head/Jaw1
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/Neck/Head/Jaw1/Jaw2
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/R_Clavicle
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/R_Clavicle/R_Shoulder
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/R_Clavicle/R_Shoulder/R_Elbow
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist
+        weight: 1
+      - path: Root/Spine1/Spine2/Spine3/Chest/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 150
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

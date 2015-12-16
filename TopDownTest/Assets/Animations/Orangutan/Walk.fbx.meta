@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: b12c165069ccb4bfd812e0bf7033ebbe
+timeCreated: 1450262490
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: orangutan_rigged5:Chest
+    100002: orangutan_rigged5:Hat
+    100004: orangutan_rigged5:Head
+    100006: orangutan_rigged5:Jaw1
+    100008: orangutan_rigged5:Jaw2
+    100010: orangutan_rigged5:L_Ankle
+    100012: orangutan_rigged5:L_Ball
+    100014: orangutan_rigged5:L_Clavicle
+    100016: orangutan_rigged5:L_Elbow
+    100018: orangutan_rigged5:L_FingerIndex1
+    100020: orangutan_rigged5:L_FingerIndex2
+    100022: orangutan_rigged5:L_FingerIndex3
+    100024: orangutan_rigged5:L_FingerMiddle1
+    100026: orangutan_rigged5:L_FingerMiddle2
+    100028: orangutan_rigged5:L_FingerMiddle3
+    100030: orangutan_rigged5:L_FingerPinky1
+    100032: orangutan_rigged5:L_FingerPinky2
+    100034: orangutan_rigged5:L_FingerPinky3
+    100036: orangutan_rigged5:L_FingerRing1
+    100038: orangutan_rigged5:L_FingerRing2
+    100040: orangutan_rigged5:L_FingerRing3
+    100042: orangutan_rigged5:L_FingerThumb1
+    100044: orangutan_rigged5:L_FingerThumb2
+    100046: orangutan_rigged5:L_FingerThumb3
+    100048: orangutan_rigged5:L_Hand
+    100050: orangutan_rigged5:L_Hip
+    100052: orangutan_rigged5:L_Knee
+    100054: orangutan_rigged5:L_Shoulder
+    100056: orangutan_rigged5:L_Toe
+    100058: orangutan_rigged5:L_Wrist
+    100060: orangutan_rigged5:Neck
+    100062: orangutan_rigged5:pCube16
+    100064: orangutan_rigged5:Pelvis
+    100066: orangutan_rigged5:R_Ankle
+    100068: orangutan_rigged5:R_Ball
+    100070: orangutan_rigged5:R_Clavicle
+    100072: orangutan_rigged5:R_Elbow
+    100074: orangutan_rigged5:R_FingerIndex1
+    100076: orangutan_rigged5:R_FingerIndex2
+    100078: orangutan_rigged5:R_FingerIndex3
+    100080: orangutan_rigged5:R_FingerMiddle1
+    100082: orangutan_rigged5:R_FingerMiddle2
+    100084: orangutan_rigged5:R_FingerMiddle3
+    100086: orangutan_rigged5:R_FingerPinky1
+    100088: orangutan_rigged5:R_FingerPinky2
+    100090: orangutan_rigged5:R_FingerPinky3
+    100092: orangutan_rigged5:R_FingerRing1
+    100094: orangutan_rigged5:R_FingerRing2
+    100096: orangutan_rigged5:R_FingerRing3
+    100098: orangutan_rigged5:R_FingerThumb1
+    100100: orangutan_rigged5:R_FingerThumb2
+    100102: orangutan_rigged5:R_FingerThumb3
+    100104: orangutan_rigged5:R_Hand
+    100106: orangutan_rigged5:R_Hip
+    100108: orangutan_rigged5:R_Knee
+    100110: orangutan_rigged5:R_Shoulder
+    100112: orangutan_rigged5:R_Toe
+    100114: orangutan_rigged5:R_Wrist
+    100116: orangutan_rigged5:Root
+    100118: orangutan_rigged5:Spine1
+    100120: orangutan_rigged5:Spine2
+    100122: orangutan_rigged5:Spine3
+    100124: pCylinder1
+    100126: pCylinder2
+    100128: //RootNode
+    400000: orangutan_rigged5:Chest
+    400002: orangutan_rigged5:Hat
+    400004: orangutan_rigged5:Head
+    400006: orangutan_rigged5:Jaw1
+    400008: orangutan_rigged5:Jaw2
+    400010: orangutan_rigged5:L_Ankle
+    400012: orangutan_rigged5:L_Ball
+    400014: orangutan_rigged5:L_Clavicle
+    400016: orangutan_rigged5:L_Elbow
+    400018: orangutan_rigged5:L_FingerIndex1
+    400020: orangutan_rigged5:L_FingerIndex2
+    400022: orangutan_rigged5:L_FingerIndex3
+    400024: orangutan_rigged5:L_FingerMiddle1
+    400026: orangutan_rigged5:L_FingerMiddle2
+    400028: orangutan_rigged5:L_FingerMiddle3
+    400030: orangutan_rigged5:L_FingerPinky1
+    400032: orangutan_rigged5:L_FingerPinky2
+    400034: orangutan_rigged5:L_FingerPinky3
+    400036: orangutan_rigged5:L_FingerRing1
+    400038: orangutan_rigged5:L_FingerRing2
+    400040: orangutan_rigged5:L_FingerRing3
+    400042: orangutan_rigged5:L_FingerThumb1
+    400044: orangutan_rigged5:L_FingerThumb2
+    400046: orangutan_rigged5:L_FingerThumb3
+    400048: orangutan_rigged5:L_Hand
+    400050: orangutan_rigged5:L_Hip
+    400052: orangutan_rigged5:L_Knee
+    400054: orangutan_rigged5:L_Shoulder
+    400056: orangutan_rigged5:L_Toe
+    400058: orangutan_rigged5:L_Wrist
+    400060: orangutan_rigged5:Neck
+    400062: orangutan_rigged5:pCube16
+    400064: orangutan_rigged5:Pelvis
+    400066: orangutan_rigged5:R_Ankle
+    400068: orangutan_rigged5:R_Ball
+    400070: orangutan_rigged5:R_Clavicle
+    400072: orangutan_rigged5:R_Elbow
+    400074: orangutan_rigged5:R_FingerIndex1
+    400076: orangutan_rigged5:R_FingerIndex2
+    400078: orangutan_rigged5:R_FingerIndex3
+    400080: orangutan_rigged5:R_FingerMiddle1
+    400082: orangutan_rigged5:R_FingerMiddle2
+    400084: orangutan_rigged5:R_FingerMiddle3
+    400086: orangutan_rigged5:R_FingerPinky1
+    400088: orangutan_rigged5:R_FingerPinky2
+    400090: orangutan_rigged5:R_FingerPinky3
+    400092: orangutan_rigged5:R_FingerRing1
+    400094: orangutan_rigged5:R_FingerRing2
+    400096: orangutan_rigged5:R_FingerRing3
+    400098: orangutan_rigged5:R_FingerThumb1
+    400100: orangutan_rigged5:R_FingerThumb2
+    400102: orangutan_rigged5:R_FingerThumb3
+    400104: orangutan_rigged5:R_Hand
+    400106: orangutan_rigged5:R_Hip
+    400108: orangutan_rigged5:R_Knee
+    400110: orangutan_rigged5:R_Shoulder
+    400112: orangutan_rigged5:R_Toe
+    400114: orangutan_rigged5:R_Wrist
+    400116: orangutan_rigged5:Root
+    400118: orangutan_rigged5:Spine1
+    400120: orangutan_rigged5:Spine2
+    400122: orangutan_rigged5:Spine3
+    400124: pCylinder1
+    400126: pCylinder2
+    400128: //RootNode
+    2300000: pCylinder1
+    2300002: pCylinder2
+    3300000: pCylinder1
+    3300002: pCylinder2
+    4300000: orangutan_rigged5:pCube16
+    4300002: pCylinder1
+    4300004: pCylinder2
+    7400000: Walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: orangutan_rigged5:pCube16
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: orangutan_rigged5:pCube16
+        weight: 1
+      - path: orangutan_rigged5:Root
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis/orangutan_rigged5:L_Hip
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis/orangutan_rigged5:L_Hip/orangutan_rigged5:L_Knee
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis/orangutan_rigged5:L_Hip/orangutan_rigged5:L_Knee/orangutan_rigged5:L_Ankle
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis/orangutan_rigged5:L_Hip/orangutan_rigged5:L_Knee/orangutan_rigged5:L_Ankle/orangutan_rigged5:L_Ball
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis/orangutan_rigged5:L_Hip/orangutan_rigged5:L_Knee/orangutan_rigged5:L_Ankle/orangutan_rigged5:L_Ball/orangutan_rigged5:L_Toe
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis/orangutan_rigged5:R_Hip
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis/orangutan_rigged5:R_Hip/orangutan_rigged5:R_Knee
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis/orangutan_rigged5:R_Hip/orangutan_rigged5:R_Knee/orangutan_rigged5:R_Ankle
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis/orangutan_rigged5:R_Hip/orangutan_rigged5:R_Knee/orangutan_rigged5:R_Ankle/orangutan_rigged5:R_Ball
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Pelvis/orangutan_rigged5:R_Hip/orangutan_rigged5:R_Knee/orangutan_rigged5:R_Ankle/orangutan_rigged5:R_Ball/orangutan_rigged5:R_Toe
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerIndex1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerIndex1/orangutan_rigged5:L_FingerIndex2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerIndex1/orangutan_rigged5:L_FingerIndex2/orangutan_rigged5:L_FingerIndex3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerMiddle1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerMiddle1/orangutan_rigged5:L_FingerMiddle2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerMiddle1/orangutan_rigged5:L_FingerMiddle2/orangutan_rigged5:L_FingerMiddle3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerPinky1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerPinky1/orangutan_rigged5:L_FingerPinky2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerPinky1/orangutan_rigged5:L_FingerPinky2/orangutan_rigged5:L_FingerPinky3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerRing1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerRing1/orangutan_rigged5:L_FingerRing2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerRing1/orangutan_rigged5:L_FingerRing2/orangutan_rigged5:L_FingerRing3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerThumb1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerThumb1/orangutan_rigged5:L_FingerThumb2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/orangutan_rigged5:L_FingerThumb1/orangutan_rigged5:L_FingerThumb2/orangutan_rigged5:L_FingerThumb3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:L_Clavicle/orangutan_rigged5:L_Shoulder/orangutan_rigged5:L_Elbow/orangutan_rigged5:L_Wrist/orangutan_rigged5:L_Hand/pCylinder1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:Neck
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:Neck/orangutan_rigged5:Head
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:Neck/orangutan_rigged5:Head/orangutan_rigged5:Hat
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:Neck/orangutan_rigged5:Head/orangutan_rigged5:Jaw1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:Neck/orangutan_rigged5:Head/orangutan_rigged5:Jaw1/orangutan_rigged5:Jaw2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerIndex1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerIndex1/orangutan_rigged5:R_FingerIndex2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerIndex1/orangutan_rigged5:R_FingerIndex2/orangutan_rigged5:R_FingerIndex3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerMiddle1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerMiddle1/orangutan_rigged5:R_FingerMiddle2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerMiddle1/orangutan_rigged5:R_FingerMiddle2/orangutan_rigged5:R_FingerMiddle3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerPinky1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerPinky1/orangutan_rigged5:R_FingerPinky2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerPinky1/orangutan_rigged5:R_FingerPinky2/orangutan_rigged5:R_FingerPinky3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerRing1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerRing1/orangutan_rigged5:R_FingerRing2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerRing1/orangutan_rigged5:R_FingerRing2/orangutan_rigged5:R_FingerRing3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerThumb1
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerThumb1/orangutan_rigged5:R_FingerThumb2
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/orangutan_rigged5:R_FingerThumb1/orangutan_rigged5:R_FingerThumb2/orangutan_rigged5:R_FingerThumb3
+        weight: 1
+      - path: orangutan_rigged5:Root/orangutan_rigged5:Spine1/orangutan_rigged5:Spine2/orangutan_rigged5:Spine3/orangutan_rigged5:Chest/orangutan_rigged5:R_Clavicle/orangutan_rigged5:R_Shoulder/orangutan_rigged5:R_Elbow/orangutan_rigged5:R_Wrist/orangutan_rigged5:R_Hand/pCylinder2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 125
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,31 +1,54 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// Enemy AI Class
 public class SimpleAI : MonoBehaviour {
 
-	// The name of the object to look for
+	/**
+	 * The name of the object to look for
+	 */
 	public string TargetName;
 
-	// The move speed of the enemy
+	/**
+	 * The move speed of the enemy
+	 */
 	public float MoveSpeed;
 
-	// Where the enemy should move to
+	/**
+	 * Where the enemy should move to
+	 */
 	private Vector3 destination;
 
-	// How far away the enemy can see
+	/**
+	 * How far away the enemy can see
+	 */
 	public int range;
 
-	// The player
+	/**
+	 * The player
+	 */
 	public GameObject player;
-	// These two can be consolidated later 
 
-	// Is the enemy inRange of the player
+	/** 
+	 * Is the enemy inRange of the player
+	 */
 	public bool inRange;
 
+	/** 
+	 * In-Game time of last attack
+	 */
 	public float justAttacked;
 
+	/** 
+	 * Is the AI currently attacking?
+	 * (For Animation)
+	 */ 
 	public bool attacking;
 
+	/**
+	 * Is the AI doing nothing (i.e. not chasing && not attacking)
+	 * (For Animation)
+	 */
 	public bool idle = true;
 
 
@@ -49,8 +72,6 @@ public class SimpleAI : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//target = GameObject.Find (TargetName);
-		//player = GameObject.FindGameObjectWithTag("Player");
 		justAttacked = Time.time;
 	}
 
@@ -81,7 +102,7 @@ public class SimpleAI : MonoBehaviour {
 			}
 		}
 
-		if (Time.time - justAttacked > 2){ //&& GameObject.Find("EventSubscriber").GetComponent<EventSubscriber>().onBeat) {
+		if (Time.time - justAttacked > 2){
 
 
 			if (inRange ) {
@@ -108,11 +129,6 @@ public class SimpleAI : MonoBehaviour {
 				}
 			
 		}
-
-//			if(!inRange && !attacking) {
-//
-//				GetComponent<Animation>().Play("Idle");
-//			}
 	}
 
 

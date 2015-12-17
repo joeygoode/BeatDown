@@ -23,21 +23,20 @@ public class CameraMove : MonoBehaviour {
 		                                      target.transform.position.z + zOffset);
 
 		// C# or UnityScript
-		var d = Input.GetAxis("Mouse ScrollWheel");
-		if (d > 0f)
-		{
+		float scrollDir = Input.GetAxis("Mouse ScrollWheel");
+		// If not scrolling, do nothing
+		if (scrollDir == 0f) return;
+		bool scrollingUp = scrollDir > 0f;
+		if (scrollingUp) {
 			// scroll up
 			if (yOffset > 15 && zOffset < -10) {
-				
 				yOffset -= .5f;
 				zOffset += .5f;
 					
 			}
 		}
-		else if (d < 0f)
-		{
+		else {
 			// scroll down
-
 			if (yOffset < 25 && zOffset > -20) {
 
 				yOffset += .5f;

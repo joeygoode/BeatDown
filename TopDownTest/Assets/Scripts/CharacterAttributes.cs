@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// Stores basic information about characters (player + AI)
 public class CharacterAttributes : MonoBehaviour {
 
 	// The character's health
@@ -27,17 +28,9 @@ public class CharacterAttributes : MonoBehaviour {
 
 	// Is the character in range of the target
 	void isInRange() {
-		
 		if(target != null) {
-			if ((Vector3.Distance(transform.position, target.transform.position) <= range) ||
-			    Vector3.Distance(transform.position, target.transform.position) >= range * range) {
-				
-				inRange = true;
-			}
-			
-			else {
-				inRange = false; 
-			}
+			float distance = Vector3.Distance(transform.position, target.transform.position);
+			inRange = (distance <= range) || (distance >= (range * range));
 		}
 	}
 

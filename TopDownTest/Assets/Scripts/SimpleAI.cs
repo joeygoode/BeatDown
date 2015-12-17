@@ -91,42 +91,33 @@ public class SimpleAI : MonoBehaviour {
 
 
 		// If we arent in range and we aren't too far away from the player, chase the player
-		if (Vector3.Distance(transform.position, player.transform.position) < range * (range/3) && !inRange) {
-			gameObject.GetComponent<CharacterController>().SimpleMove (Movement.MoveToPosition (transform,
-				                                                                                    destination,
-				                                                                                    Time.deltaTime * 10)
-				                                                           * MoveSpeed);
+		float distance = Vector3.Distance(transform.position,player.transform.position);
+		bool shouldChase = (distance < range * (range / 3)) && !inRange;
+		if (shouldChase) {
+			Vector3 movement = Movement.MoveToPosition(transform,destination,Time.deltaTime * 10) * MoveSpeed;
+			gameObject.GetComponent<CharacterController>().SimpleMove(movement);
 			if (GameObject.Find("EventSubscriber").GetComponent<EventSubscriber>().onBeat ) {
 				GetComponent<Animation>().Play ("Walk");
 					
 			}
 		}
 
-		if (Time.time - justAttacked > 2){
-
-
+		if (Time.time - justAttacked > 4){
 			if (inRange ) {
-
-					if (gameObject.tag == "Boss") {
-
-						
-						GetComponent<Animation>().Play("Combo");
-
-						player.GetComponent<CharacterAttributes>().characterHealth -= 
-						GetComponent<CharacterAttributes>().attackDamage/3;
-						justAttacked = Time.time;
-					}
-
-					if (gameObject.tag == "Enemy") {
-					
-					
-						GetComponent<Animation>().Play("Attack");
-						
-						player.GetComponent<CharacterAttributes>().characterHealth -= 
-							GetComponent<CharacterAttributes>().attackDamage;
-						justAttacked = Time.time;
-					}
+				if (gameObject.tag == "Boss") {
+					GetComponent<Animation>().Play("Combo");
+					player.GetComponent<CharacterAttributes>().characterHealth -= 
+					GetComponent<CharacterAttributes>().attackDamage/3;
+					justAttacked = Time.time;
 				}
+
+				if (gameObject.tag == "Enemy") {
+					GetComponent<Animation>().Play("Attack");
+					player.GetComponent<CharacterAttributes>().characterHealth -= 
+						GetComponent<CharacterAttributes>().attackDamage;
+					justAttacked = Time.time;
+				}
+			}
 			
 		}
 	}

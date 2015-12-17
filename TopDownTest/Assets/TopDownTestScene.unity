@@ -144,7 +144,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1009103382}
+    m_TransformParent: {fileID: 1080546075}
     m_Modifications:
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -196,7 +196,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148710, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_Name
-      value: Orangutan (7)
+      value: Orangutan 354
       objectReference: {fileID: 0}
     - target: {fileID: 11400864, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: player
@@ -326,7 +326,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1009103382}
+    m_TransformParent: {fileID: 1080546075}
     m_Modifications:
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -378,7 +378,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148710, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_Name
-      value: Orangutan (8)
+      value: The Thunder
       objectReference: {fileID: 0}
     - target: {fileID: 11400864, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: player
@@ -400,6 +400,10 @@ Prefab:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 11420550, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
+      propertyPath: inRange
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
   m_IsPrefabParent: 0
@@ -408,7 +412,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1009103382}
+    m_TransformParent: {fileID: 1080546075}
     m_Modifications:
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -420,7 +424,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 35.2789612
+      value: 48.7000008
       objectReference: {fileID: 0}
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -460,7 +464,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148710, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_Name
-      value: Orangutan (3)
+      value: Lemongelo
       objectReference: {fileID: 0}
     - target: {fileID: 11400864, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: player
@@ -831,6 +835,30 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300006, guid: 2d38d52209ee046b1987905e8f16635c, type: 3}
+--- !u!65 &642301651
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 642301585}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.95496893, y: 1.00485539, z: .755465686}
+  m_Center: {x: -21.7384739, y: .0923860967, z: 11.9644995}
+--- !u!65 &642301652
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 642301585}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.41824055, y: 1.00485539, z: .869168818}
+  m_Center: {x: -27.3196621, y: .0923860967, z: 10.4866295}
 --- !u!1001 &737054721
 Prefab:
   m_ObjectHideFlags: 0
@@ -936,7 +964,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1009103382}
+    m_TransformParent: {fileID: 1080546075}
     m_Modifications:
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -988,7 +1016,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148710, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_Name
-      value: Orangutan (5)
+      value: R.J. Monkeybutter
       objectReference: {fileID: 0}
     - target: {fileID: 11400864, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: player
@@ -1038,6 +1066,35 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1990741934}
+  - {fileID: 1080546075}
+  m_Father: {fileID: 1587545287}
+  m_RootOrder: 0
+--- !u!1 &1080546074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1080546075}
+  m_Layer: 0
+  m_Name: Orangutans
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1080546075
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1080546074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
   - {fileID: 1690955385}
   - {fileID: 59758058}
   - {fileID: 608795643}
@@ -1047,15 +1104,14 @@ Transform:
   - {fileID: 780966253}
   - {fileID: 2016727667}
   - {fileID: 2110751572}
-  - {fileID: 1990741934}
-  m_Father: {fileID: 1587545287}
-  m_RootOrder: 0
+  m_Father: {fileID: 1009103382}
+  m_RootOrder: 1
 --- !u!1001 &1088445094
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1009103382}
+    m_TransformParent: {fileID: 1080546075}
     m_Modifications:
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1107,7 +1163,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148710, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_Name
-      value: Orangutan (4)
+      value: Orangelo
       objectReference: {fileID: 0}
     - target: {fileID: 11400864, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: player
@@ -1132,6 +1188,33 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1341401783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1341401784}
+  m_Layer: 0
+  m_Name: Lighting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1341401784
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1341401783}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 625.103882, y: 48.859375, z: 128.229553}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
 --- !u!1001 &1384962410
 Prefab:
   m_ObjectHideFlags: 0
@@ -1198,6 +1281,86 @@ Prefab:
     - target: {fileID: 19884436, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
       propertyPath: playOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 496878, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 429870, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 429164, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 431224, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 410342, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 498836, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 428518, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 497012, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 473030, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 418788, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 497928, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 442454, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 493416, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 432136, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 494930, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 434280, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436268, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: characterHealth
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436268, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: attackDamage
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436268, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: range
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 135256, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1c9ef1f94e20947e49bf4d54660d5ec8, type: 2}
@@ -1345,7 +1508,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1009103382}
+    m_TransformParent: {fileID: 1080546075}
     m_Modifications:
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1397,7 +1560,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148710, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_Name
-      value: Orangutan (6)
+      value: Grumples
       objectReference: {fileID: 0}
     - target: {fileID: 11400864, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: player
@@ -1447,7 +1610,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 6
   m_Type: 1
-  m_Color: {r: 1, g: .956862748, b: .839215696, a: 1}
+  m_Color: {r: .272058845, g: .272058845, b: .272058845, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -1487,7 +1650,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1009103382}
+    m_TransformParent: {fileID: 1080546075}
     m_Modifications:
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1539,7 +1702,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148710, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_Name
-      value: Orangutan (1)
+      value: Gertrude
       objectReference: {fileID: 0}
     - target: {fileID: 11400864, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: player
@@ -1798,6 +1961,18 @@ Prefab:
       propertyPath: m_TagString
       value: Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 11178688, guid: 8f179030447054ecf89588564c424f67, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8296336, guid: 8f179030447054ecf89588564c424f67, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11493040, guid: 8f179030447054ecf89588564c424f67, type: 2}
+      propertyPath: characterHealth
+      value: 600
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8f179030447054ecf89588564c424f67, type: 2}
   m_IsPrefabParent: 0
@@ -1836,7 +2011,7 @@ Transform:
   m_Children:
   - {fileID: 1898959420}
   m_Father: {fileID: 1009103382}
-  m_RootOrder: 9
+  m_RootOrder: 0
 --- !u!4 &2016727667 stripped
 Transform:
   m_PrefabParentObject: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
@@ -1846,7 +2021,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1009103382}
+    m_TransformParent: {fileID: 1080546075}
     m_Modifications:
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1898,7 +2073,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 148710, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_Name
-      value: Orangutan (2)
+      value: Clay
       objectReference: {fileID: 0}
     - target: {fileID: 11400864, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: player
@@ -1928,7 +2103,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1009103382}
+    m_TransformParent: {fileID: 1080546075}
     m_Modifications:
     - target: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1998,6 +2173,10 @@ Prefab:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 148710, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
+      propertyPath: m_Name
+      value: Perry
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
   m_IsPrefabParent: 0
@@ -2005,3 +2184,63 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 463826, guid: 9c43a07236fb547ae8bc8d5ce9bb476c, type: 2}
   m_PrefabInternal: {fileID: 2110751565}
+--- !u!1 &2139026478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2139026479}
+  - 108: {fileID: 2139026480}
+  m_Layer: 0
+  m_Name: Spotlight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2139026479
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2139026478}
+  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106709}
+  m_LocalPosition: {x: .0599999987, y: 32.8400002, z: -.100000001}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1384962412}
+  m_RootOrder: 0
+--- !u!108 &2139026480
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2139026478}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_Type: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 6.19999981
+  m_Range: 47.8100014
+  m_SpotAngle: 37
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_Strength: 1
+    m_Bias: .0500000007
+    m_NormalBias: .400000006
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+  m_AreaSize: {x: 1, y: 1}

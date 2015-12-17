@@ -8,50 +8,49 @@ public class Combat : MonoBehaviour {
 	public bool attacking = false;
 
 	public float justAttacked;
+	private float ANIMATION_LENGTH;
 
 
 
 	// Use this for initialization
 	void Start () {
-
-
+		ANIMATION_LENGTH = GetComponent<Animation>().GetClip("Attack").length;
 	}
 
 	// Attack the enemy
 	void Attack() {
 			
-			// GOTTA GO BACK TO FIX AN ANIMATION ISSUE
+		// GOTTA GO BACK TO FIX AN ANIMATION ISSUE
 		GetComponent<Dash>().dashing = false;
 		attacking = true;
 		justAttacked = Time.time;
-			//ClickToMove.attack = true;
-			// Play the attack animation
-		GetComponent<Animation>().Play ("Attack1");
-			// When animating,
+		//ClickToMove.attack = true;
+		// Play the attack animation
+
+		GetComponent<Animation>().Play ("Attack");
+		Debug.Log ("Playing Attack ATATATATATATATATATATA");
+		// When animating,
 			
 		Vector3 targetPosition = new Vector3(targetEnemy.transform.position.x,
 		                                     this.transform.position.y,
 		                                     targetEnemy.transform.position.z);
 			
-			// Look at the target
-			transform.LookAt(targetPosition);
+		// Look at the target
+		transform.LookAt(targetPosition);
 
-			//If the player attacks on beat
-			if (GetComponent<RhythmBehavior>().onBeat){
+		//If the player attacks on beat
+		if (GameObject.Find("EventSubscriber").GetComponent<EventSubscriber>().onBeat){
 
-				// Play the correct sound
-				GetComponent<RhythmBehavior>().onBeatAttack.Play();
+			// Play the correct sound
+			GetComponent<RhythmBehavior>().onBeatAttack.Play();
 
-				// Decrement the target's health (Double Damage)
-				targetEnemy.GetComponent<CharacterAttributes>().characterHealth 
-					-= (GetComponent<CharacterAttributes>().attackDamage * 2);
+			// Decrement the target's health (Double Damage)
+			targetEnemy.GetComponent<CharacterAttributes>().characterHealth 
+				-= (GetComponent<CharacterAttributes>().attackDamage * 3);
+		}
 
-			// Change the enemy's color to green
-			targetEnemy.GetComponent<Renderer> ().material.color = Color.green;
-			}
-
-			// If the player attacks off beat
-			else {
+		// If the player attacks off beat
+		else {
 
 			// Play the right sound
 			GetComponent<RhythmBehavior>().offBeatAttack.Play();
@@ -59,15 +58,12 @@ public class Combat : MonoBehaviour {
 			// Decrement the target's health
 			targetEnemy.GetComponent<CharacterAttributes>().characterHealth 
 				-= GetComponent<CharacterAttributes>().attackDamage;
+		}
+		
+	}
 
-			// Change the target's color to red
-			targetEnemy.GetComponent<Renderer> ().material.color = Color.red;
-			}
-		
-		//		if(!Animation.IsPlaying(attack.name)) {
-		//			ClickToMove.attack = false;
-		//		}
-		
+	bool animationEnded() {
+		return (!attacking || ((Time.time - justAttacked) >= ANIMATION_LENGTH));
 	}
 
 
@@ -77,10 +73,20 @@ public class Combat : MonoBehaviour {
 
 		targetEnemy = GetComponent<CharacterAttributes>().target;
 
+		bool enemyExists = targetEnemy != null;
+		bool leftMouseClicked = Input.GetMouseButton(0);
+		bool inRange = GetComponent<CharacterAttributes>().inRange;
+		bool cooledDown = (Time.time - justAttacked) > 0.45f;
 
-		if(targetEnemy != null && Input.GetMouseButtonDown(0) && GetComponent<CharacterAttributes>().inRange && 
-		   (Time.time - justAttacked > .45f)) {
+		if(enemyExists 
+		   && leftMouseClicked
+		   && inRange
+		   && cooledDown) {
+
 			Attack();
+		}
+		else if (animationEnded()){
+			attacking = false;
 		}
 
 	}

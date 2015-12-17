@@ -41,14 +41,19 @@ public class Dash : MonoBehaviour {
 
 		// When the player presses the dash key
 		// Modularize this*********************
+
+		// Fail fast if attacking
+		if (GetComponent<Combat>().attacking) {
+			return;
+		}
+
 		if (Input.GetMouseButtonDown(1)) {
 
 			GetComponent<Combat>().attacking = false;
 			dashing = true;
 			// Get the position of the cursor in the world
 			Vector3 terrainBelowCursor;
-			if (Cursor.ToTerrainPosition(out terrainBelowCursor))
-			{
+			if (Cursor.ToTerrainPosition(out terrainBelowCursor)) {
 				//Set the target position to the mouse position
 				position = terrainBelowCursor;
 				//controller.GetComponent<ClickToMove> ().idle = false;
@@ -59,6 +64,7 @@ public class Dash : MonoBehaviour {
 					// Play the correct sound
 					GetComponent<RhythmBehavior>().onBeatChime.Play();
 					GetComponent<Animation>().Play("DashStart");
+					Debug.Log ("Playing DashStart");
 
 					// Dash lasts twice as long
 					durationRemaining = dashDuration * 2;
@@ -69,6 +75,7 @@ public class Dash : MonoBehaviour {
 
 				else {
 					GetComponent<Animation>().Play("DashStart");
+					Debug.Log ("Playing DashStart");
 					GetComponent<RhythmBehavior>().offBeatChime.Play();
 					durationRemaining = dashDuration;
 				}
@@ -97,10 +104,11 @@ public class Dash : MonoBehaviour {
 		}
 			
 		// Dash has ended
-		if (durationRemaining <= 0.0f) {
+		if (dashing && durationRemaining <= 0.0f) {
 			dashing = false;
 			//controller.GetComponent<ClickToMove> ().idle = true;
 			GetComponent<Animation>().Play("DashStop");
+			Debug.Log ("Playing DashStop");
 
 			// Kill particles
 			dashParticles.Pause();
@@ -108,9 +116,10 @@ public class Dash : MonoBehaviour {
 		}
 
 
-		if (!dashing && !GetComponent<Combat>().attacking) {
+		if (!dashing) {
 
 			GetComponent<Animation>().Play("Idle");
+			Debug.Log ("Playing Idle");
 		}
 	}
 }

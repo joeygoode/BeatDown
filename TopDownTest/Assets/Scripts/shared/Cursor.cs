@@ -8,7 +8,7 @@ public static class Cursor {
 
 		RaycastHit hit;
 		if (Physics.Raycast (ray, out hit, 1000)) {
-			if (hit.collider.tag != "Player" && hit.collider.tag != "Enemy") {
+			if (hit.collider.tag != "Player") { // && hit.collider.tag != "Enemy") {
 				location = hit.point;
 				return true;
 			}
